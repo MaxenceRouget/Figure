@@ -4,6 +4,6 @@ using namespace std;
 
 class figure{
 public:
-    int calcSurface();
-    int calCPerim(); 
-}
+  virtual int calcSurface();
+    virtual int calcPerim();
+};
