@@ -18,7 +18,7 @@ int main()
         cout << "1---Calcul de perimetre : "<<endl;
         cout << "2---Calcul de surface : "<<endl;
         cin >> choose2;
-          if(chosse2 == 1)
+          if(choose2 == 1)
           {
               rectangle1.calcPerim(15, 10);
           }
