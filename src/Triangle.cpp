@@ -3,15 +3,15 @@
 
 using namespace std;
 
-int triangle::calcSurface(_hauteur, _base)
+int triangle::calcPerim(int _hauteur,int _base)
 {
   int resultat;
-    resultat = hauteur * base
+    resultat = hauteur * base;
       cout << "le resultat est " << resultat <<endl;
     return (resultat);
 }
 
-int triangle::calcPerim(_cote1, _cote2, _cote3)
+int triangle::calcSurface(int _cote1,int  _cote2, int _cote3)
 {
   int resultat;
     resultat = _cote1 + _cote2 +_cote3 ;

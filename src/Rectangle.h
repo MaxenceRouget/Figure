@@ -1,3 +1,4 @@
+#pragma once
 #include <iostream>
 #include "Figure.h"
 using namespace std;
