@@ -6,7 +6,7 @@ using namespace std;
 float cercle::calcSurface(float _rayon)
 {
   float resultat;
-    resultat = 3.14 * _rayon ;
+    resultat = 3.14*_rayon ;
       cout << "le resultat est " << resultat <<endl;
     return (resultat);
 }

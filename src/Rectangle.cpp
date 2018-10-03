@@ -14,14 +14,10 @@ using namespace std;
   int rectangle::calcPerim(int _Longeur, int _Largeur)
   {
     int resultat;
+      int resultat1;
+      resultat= _Longeur + _Largeur;
+      resultat1 = 2 * resultat;
 
-    cout << "saisir la Longeur "<<endl;
-      cin >> Longeur;
-    cout << "saisir la Largeur "<<endl;
-      cin >> Largeur;
-
-      resultat = 2* (Longeur+ Largeur);
-
-      cout << "le resultat est " << resultat <<endl;
+      cout << "le resultat est " << resultat1 <<endl;
     return (resultat);
   }
