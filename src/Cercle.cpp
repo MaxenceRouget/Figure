@@ -3,18 +3,18 @@
 
 using namespace std;
 
-int cercle::calcSurface(_hauteur, _base)
+float cercle::calcSurface(float _rayon)
 {
-  int resultat;
-    resultat = hauteur * base
+  float resultat;
+    resultat = 3.14 * _rayon ;
       cout << "le resultat est " << resultat <<endl;
     return (resultat);
 }
 
-int cercle::calcPerim(_cote1, _cote2, _cote3)
+float cercle::calcPerim(float _rayon)
 {
-  int resultat;
-    resultat = _cote1 + _cote2 +_cote3 ;
+  float resultat;
+    resultat =2*3.14*_rayon ;
     cout << "le resultat est " << resultat <<endl;
     return (resultat);
 }

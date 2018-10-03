@@ -6,8 +6,8 @@ using namespace std;
 class cercle:public figure
 {
 public:
-  int Rayon;
+  float Rayon;
 
-    int calcSurface(int _rayon);
-    int calcPerim(int _rayon);
+    float calcSurface(float _rayon);
+    float calcPerim(float _rayon);
 };

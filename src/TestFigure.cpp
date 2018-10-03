@@ -27,7 +27,7 @@ int main()
             rectangle1.calcSurface(15, 10);
           }
       break;
-/*
+
   case 2 :
   triangle triangle1;
   cout << "1---Calcul de perimetre : "<<endl;
@@ -43,6 +43,6 @@ int main()
         rectangle1.calcSurface(10,15);
       }
   break;
-*/}
+
 
 }
