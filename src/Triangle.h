@@ -25,11 +25,11 @@ public:
     *\param _cote3 -> ce qu'on donne en param pour les calculs
     *\return ça retourne la Surface
       */
-    int calcSurface(int _cote1, int _cote2, int _cote3);
+    int calcPerim(int _cote1, int _cote2, int _cote3);
     /*!\brief calcSurface
     *\param _hauteur -> ce qu'on donne en param pour les calculs
     *\param _base -> ce qu'on donne en param pour les calculs
     *\return ça retourne le calcul du perimètre
       */
-    int calcPerim(int _hauteur, int _base);
+    int calcSurface(int _hauteur, int _base);
 };

@@ -63,7 +63,7 @@ int main()
           cin >> a;
         cout << "saisir la base "<<endl;
           cin>> b;
-        triangle1.calcPerim(a,b);
+        triangle1.calcPerim(a,b,c);
         goto debut;
       }
       else
@@ -74,7 +74,7 @@ int main()
           cin>>b;
         cout << "saisir la valeur du côté n°3"<<endl;
           cin>>c;
-        triangle1.calcSurface(a,b,c);
+        triangle1.calcSurface(a,b);
         goto debut;
       }
   break;}
